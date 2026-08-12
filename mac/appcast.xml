@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SenderoGo Receiver</title>
+        <item>
+            <title>0.9.0</title>
+            <pubDate>Wed, 12 Aug 2026 12:16:31 -0600</pubDate>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/cpremoshis/senderogo-releases/releases/download/v0.9.0/SenderoGo-Receiver-0.9.0.dmg" length="9234524" type="application/octet-stream" sparkle:edSignature="6f2TXNKNnrBEMpMOI89T9VexmRsfEItPQSUUzVap65zxqG5sGSnxVUalxEDI2nNwrZI2cfVjWtvc1CLYvUb4DQ=="/>
+        </item>
+    </channel>
+</rss>
