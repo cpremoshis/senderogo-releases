@@ -17,3 +17,15 @@ and install with `sudo dpkg -i`. A signed apt repository (automatic updates via
 
 Every build bundles its own LGPL FFmpeg and MPL libsrt — license texts ship
 inside the artifacts. Update checks (when enabled) contact github.com only.
+
+## Linux — apt repository (automatic updates)
+
+```sh
+curl -fsSL https://cpremoshis.github.io/senderogo-releases/keys/senderogo-archive-keyring.asc \
+  | sudo gpg --dearmor -o /usr/share/keyrings/senderogo-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/senderogo-archive-keyring.gpg] https://cpremoshis.github.io/senderogo-releases/apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/senderogo.list
+sudo apt update && sudo apt install sdgo
+```
+
+Updates then arrive through normal `apt upgrade`.

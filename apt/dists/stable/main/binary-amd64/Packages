@@ -1,0 +1,20 @@
+Package: sdgo
+Architecture: amd64
+Version: 0.9.0
+Priority: optional
+Section: video
+Maintainer: Casey Premoshis <cpremoshis@proton.me>
+Installed-Size: 13704
+Depends: libc6 (>= 2.38), libstdc++6, libgcc-s1
+Filename: pool/main/s/sdgo/sdgo_0.9.0_amd64.deb
+Size: 5118150
+MD5sum: 9023507005fd65056cbaaaacde704b99
+SHA1: 57ffdfe241bfb92650358c06664e58e7469c4d97
+SHA256: 2980665f257f20fdf5cc0f8d42f89149d92b8013fd08e0703d8ddac8d5f016db
+SHA512: bc105360338dd17738484deadb691b1e56f69e79cf3e0a458f27b5086208087f61ea7cbe73fbfa8b5da939990c4e10b829fbde5af0547f257b4cf9b0584c5810
+Description: SenderoGo SRT receiver/recorder (manual multi-publisher hub)
+ Records every SRT publisher on one UDP port, demuxed by streamid, each to
+ its own file, with optional SRT/RTMP forwarding. Cloud-free: talks only to
+ the publishers that dial it. Bundles its own LGPL FFmpeg and MPL libsrt in
+ /usr/lib/senderogo.
+

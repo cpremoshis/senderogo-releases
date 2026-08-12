@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Wed, 12 Aug 2026 18:14:52 +0000
+Label: SenderoGo
+Origin: SenderoGo
+Suite: stable
+MD5Sum:
+ cb8fd07565c7bf8260371e1e5984645e              142 Release
+ ee0690b093c6b34b824a51e55f76aa46              887 main/binary-amd64/Packages
+ 1acd2058d45545f6dbfe12700f48d2ec              634 main/binary-amd64/Packages.gz
+SHA1:
+ 411a6de125ba8be90d847dedd717ea70d9138062              142 Release
+ 9416f208c663f584e423508828c6f6a71964b5eb              887 main/binary-amd64/Packages
+ e8e0f3e40126fd8b4155c47d1a2e4899688ebd74              634 main/binary-amd64/Packages.gz
+SHA256:
+ 07d4c298078ba9cbdb1457e53c9bd389d1bdb41b76d2559402172f27242cb2f6              142 Release
+ c639c511716d662ec61289946582fbe1bae97d4d22576e0aa538069495918b57              887 main/binary-amd64/Packages
+ c97680ea81f8eb89ab122a6f004c370ff45ae4e82f2993522a62b67e3bd0d596              634 main/binary-amd64/Packages.gz
+SHA512:
+ 2c6e3fd014d38b441c1e2db5e98952cf9bd9e45d39367afcec09f9eb579eafc7583e5fc8a77aaf8872a8061fca6648aae1173128bc1b574d83e8aa1fddbd6e4f              142 Release
+ d1a9e2bf9cc6829c04f9aea4215e15b498d2bbb09dca07984e3c5cf1b26c551cbe656ec14c540a30899b368e93ded038797af9d2bffa674bf861fa2822c629a7              887 main/binary-amd64/Packages
+ 2ed93135af427ef702e2670fdde685e0153c127c170a096459a3a8e8ef54446cf153d17a01d37433a46ea13fc41d444db9b0dae6940544c62003ba4542e4ead5              634 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQDjITcrUnPh66WrWnr5ja9ychxEgUCany4KAAKCRDr5ja9ychx
+Er0AAQDHSvQzBkHE8MYUdNxavOOlZY+5jKNhtpwppOYzVYJ0ywD/bIx7rZ16jYjK
+NU55dZLR5IeGSvREwE3ej9e4yUrZuQ0=
+=mAdr
+-----END PGP SIGNATURE-----
