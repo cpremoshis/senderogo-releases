@@ -35,5 +35,11 @@ say "installing sdgo"
 apt-get update -qq
 apt-get install -y sdgo
 
-say "installed: $(sdgo version | head -1)"
+# Report from dpkg, not by executing `sdgo` — a dev copy earlier on PATH
+# (e.g. /usr/local/bin) would answer instead of the package we just installed.
+say "installed: sdgo $(dpkg-query -W -f '${Version}' sdgo)"
+resolved=$(command -v sdgo || true)
+if [ -n "$resolved" ] && [ "$resolved" != "/usr/bin/sdgo" ]; then
+  printf '\033[33m! note: %s shadows the packaged /usr/bin/sdgo on this machine\033[0m\n' "$resolved" >&2
+fi
 echo "Run 'sdgo help' to get started, or 'sdgo setup' for first-time configuration."
