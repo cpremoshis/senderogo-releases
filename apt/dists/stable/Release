@@ -1,23 +1,23 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Wed, 12 Aug 2026 18:14:52 +0000
+Date: Mon, 17 Aug 2026 00:10:16 +0000
 Label: SenderoGo
 Origin: SenderoGo
 Suite: stable
 MD5Sum:
- cb8fd07565c7bf8260371e1e5984645e              142 Release
- ee0690b093c6b34b824a51e55f76aa46              887 main/binary-amd64/Packages
- 1acd2058d45545f6dbfe12700f48d2ec              634 main/binary-amd64/Packages.gz
+ e120b0b51827bffe872f19f2fcb73e1e             1452 Release
+ d993a4506bb90000afb9738ed51fc8c4             1804 main/binary-amd64/Packages
+ 04fc833d59aa27204cabb286ab9d1203              861 main/binary-amd64/Packages.gz
 SHA1:
- 411a6de125ba8be90d847dedd717ea70d9138062              142 Release
- 9416f208c663f584e423508828c6f6a71964b5eb              887 main/binary-amd64/Packages
- e8e0f3e40126fd8b4155c47d1a2e4899688ebd74              634 main/binary-amd64/Packages.gz
+ 2bb541ee3860302d9dcf2638b81f6fe22e58a27a             1452 Release
+ dd8ef63be7d81f7c8b16ee62d621432ca2811a7b             1804 main/binary-amd64/Packages
+ 2e14fa0ccdf3eecce1259939c550d1da600f85a5              861 main/binary-amd64/Packages.gz
 SHA256:
- 07d4c298078ba9cbdb1457e53c9bd389d1bdb41b76d2559402172f27242cb2f6              142 Release
- c639c511716d662ec61289946582fbe1bae97d4d22576e0aa538069495918b57              887 main/binary-amd64/Packages
- c97680ea81f8eb89ab122a6f004c370ff45ae4e82f2993522a62b67e3bd0d596              634 main/binary-amd64/Packages.gz
+ 01cb7744338df3a2395c68c8c51b40868497383ccc9a63f155a5655a19860ef1             1452 Release
+ 2c9941d463b460735e4f830919199306ab3adea3ddc11cb7856af75421f22d58             1804 main/binary-amd64/Packages
+ af169df48dc40213ff5aec3dc06e6bbe4d91f34b5c81d41768a9db6d8d9441ca              861 main/binary-amd64/Packages.gz
 SHA512:
- 2c6e3fd014d38b441c1e2db5e98952cf9bd9e45d39367afcec09f9eb579eafc7583e5fc8a77aaf8872a8061fca6648aae1173128bc1b574d83e8aa1fddbd6e4f              142 Release
- d1a9e2bf9cc6829c04f9aea4215e15b498d2bbb09dca07984e3c5cf1b26c551cbe656ec14c540a30899b368e93ded038797af9d2bffa674bf861fa2822c629a7              887 main/binary-amd64/Packages
- 2ed93135af427ef702e2670fdde685e0153c127c170a096459a3a8e8ef54446cf153d17a01d37433a46ea13fc41d444db9b0dae6940544c62003ba4542e4ead5              634 main/binary-amd64/Packages.gz
+ fdcc1639af50d01414d65a6d38b97212e6ac3431fe9aaf25fb0b411ce2584ad68a7188f396a67eb069a650db4fca2442c25636664263306ef17314355ad4f890             1452 Release
+ 5f25d8814beaed4324216906e3877879ee6c2fa90f3ef959a9ca6c09e118c2ee3a612d4d466eb50e30be699c44a23c8df6aae23c3e0f5672d837fe60829d73fa             1804 main/binary-amd64/Packages
+ ed29f8e599250bddae6ac20fd5960c413b9b18355683c8b02101ea30ec61bd039569a83391a7208fc996ecbac41eb7150a1fb157adc5ce4934bb7d38b4407247              861 main/binary-amd64/Packages.gz
