@@ -1,33 +1,41 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Architectures: amd64
+Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Mon, 17 Aug 2026 17:09:20 +0000
+Date: Mon, 17 Aug 2026 18:13:54 +0000
 Label: SenderoGo
 Origin: SenderoGo
 Suite: stable
 MD5Sum:
- 7afed876b391fb33437ec626887feff6              142 Release
+ d4ff209e28b02efcf65f6bdc5762e737              148 Release
  721fa05aa98211103e083e647b4fdf40             2721 main/binary-amd64/Packages
- 5e85526fe952421c5c7da9efafd43d0f             1052 main/binary-amd64/Packages.gz
+ 062d1b05ea20b22bfe9648bc5eaf9062             1043 main/binary-amd64/Packages.gz
+ 90df71d85e34f608ef10f4c363771d2e              917 main/binary-arm64/Packages
+ 05e41a116f1e1ad36c12c320cb3857f8              641 main/binary-arm64/Packages.gz
 SHA1:
- 4a70802d3b21df368e9b1d54b668202dfa00c502              142 Release
+ 34eef9312ee47ecab53d1350c02a9c16ee66ba25              148 Release
  248ca67c074a520a1e75a6dcc9e1921bed98ab4d             2721 main/binary-amd64/Packages
- 25241d9a256c54f434c6071d7c2bc16a31aa0f5a             1052 main/binary-amd64/Packages.gz
+ 1f5622e70bc43631dbd5e381efbadd8335dba302             1043 main/binary-amd64/Packages.gz
+ 6d6619454d16e41a9397e40318c492bdae49c30d              917 main/binary-arm64/Packages
+ 6b3098ecfc02318d60d4bdd09dfda857bcb9adb9              641 main/binary-arm64/Packages.gz
 SHA256:
- 275b5422d09a4711ec139c99915e809322c9e3e00b12c783ece2f6c0f9c9a81a              142 Release
+ b8177635d0eecbbd3bb42f30ae166ca51ef36bd2a94821ef416f8bac745e575b              148 Release
  6a08a0a0bd2a35d4b2aff5cf5d076a545805b5b732988aa75e62aec60c144b85             2721 main/binary-amd64/Packages
- 6122c1b2f22b0ebeda3319c3e30efae8d98896d1b2882afb85418e8bb8f9dc25             1052 main/binary-amd64/Packages.gz
+ 02fd36c860f7fe2e06cb9bbc08f07728abc9de6ecfe29ba6b43e882c2829aa48             1043 main/binary-amd64/Packages.gz
+ 96940bb50007e2cb8e8c66e52e50df054b75fcd3f16dad1f51b9f7f117048ba7              917 main/binary-arm64/Packages
+ c12fa3f3d4dbb1d2e1cbc2365e9185b22bcbcb0282602a942492d9368d968fce              641 main/binary-arm64/Packages.gz
 SHA512:
- 467271b04e41176241becd12988fda11c7ab3142cc08330dc127a82d375b90d68db8c82f6aa21c548dd1d9588a3a11f400d006da8a0349092c91f28477cef439              142 Release
+ 2ba8b7e937f0fdc829bd657955abaf869da0841d8a3de68e5790f1fbe70dbf11a4ebf8f5f2f03ccc1aa0f97c7a61c13a26184b3fc9f020c507219b92a945e0ac              148 Release
  07c5a209993659f6656f00c4ee8ac8bad31131c5ec2173ff0c13f750882a0eb5c59bbc1e5f1772dd2702c23a4073be893eec08b6d7a17d2cc9b4b4df411a32c3             2721 main/binary-amd64/Packages
- d7b8af7804a4e3bad2a754df1210bef8ee004005dbaccd92fc83f4d583742eebfaf8a0b7ea13b39d0d43a475a67c020912fc9d381610873c8d721eac97440854             1052 main/binary-amd64/Packages.gz
+ b8f37f57551adc4b45b9262dfd3a9e1d77960054cc2c5e687a441c949d08644129ec7f9daf9419dd391e610abae94e0d5cd0ea0f0e3dd448823ee9d8ced6d311             1043 main/binary-amd64/Packages.gz
+ 848331bba40566291338b759c82b05b8c62b25a8d0c5a9cf41e41b56ffe0765de39ec554e76e553d53f6f6d092124820b145d5452457558a04256bf0f892d992              917 main/binary-arm64/Packages
+ 8bbff390201459df0dd427d9f6242040bd90ad8845029facd003879ca88feea75f1b0147581bb0e180eb471b7f87292d2eb3eabb118c4520c3906eba2a6325a3              641 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQDjITcrUnPh66WrWnr5ja9ychxEgUCaoNAegAKCRDr5ja9ychx
-EkjrAQCMIXEVPL9iNjiG5z2y6y+UYhJAmaqu+n1sYunklWG1hwEAx5/ycF5PIz4Z
-N3ASchejpsscEwsyhlMKOjJHejLcqQc=
-=qqjH
+iHUEARYKAB0WIQQDjITcrUnPh66WrWnr5ja9ychxEgUCaoNRcAAKCRDr5ja9ychx
+ErGdAP9V8O+LGhdebInit83nk8ZuMWheh7rtiD+NsJmnUHmO5wEA6cP1uvANPfy9
+uBvCS78ZzDxEV6tv1XqbXREePfKjYQ0=
+=HuCI
 -----END PGP SIGNATURE-----

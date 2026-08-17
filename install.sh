@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #
 # install.sh — install the sdgo receiver from the signed SenderoGo apt
-# repository (Debian/Ubuntu, amd64). Sets up the archive keyring and a
-# sources.list.d entry, then installs the package; updates arrive through
+# repository (Debian 13+/Ubuntu 24.04+, amd64 or arm64 — the latter covers
+# Raspberry Pi). Sets up the archive keyring and a sources.list.d
+# entry, then installs the package; updates arrive through
 # normal `apt upgrade` from then on. The package is self-contained (bundled
 # LGPL FFmpeg + libsrt in /usr/lib/senderogo) — no distro media libs needed.
 #
@@ -22,6 +23,20 @@ say()  { printf '\033[1m→ %s\033[0m\n' "$*"; }
 die()  { printf '\033[31merror: %s\033[0m\n' "$*" >&2; exit 1; }
 
 [ "$(id -u)" -eq 0 ] || die "run as root: sudo ./install.sh"
+
+# Fail early and legibly on an architecture we don't publish. Without this the
+# apt source installs fine and `apt-get install sdgo` ends in "Unable to locate
+# package" — which reads like a broken repository rather than a wrong arch.
+# The common case is a 32-bit Raspberry Pi OS image on 64-bit-capable hardware.
+ARCH=$(dpkg --print-architecture)
+case "$ARCH" in
+  amd64|arm64) ;;
+  armhf|armel)
+    die "sdgo has no $ARCH build — this is a 32-bit OS. On a Raspberry Pi,
+reinstall with the 64-bit image and sdgo's arm64 package will apply." ;;
+  *) die "sdgo has no $ARCH build (supported: amd64, arm64)." ;;
+esac
+
 command -v curl >/dev/null || apt-get install -y curl
 command -v gpg  >/dev/null || apt-get install -y gnupg
 

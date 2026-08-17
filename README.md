@@ -28,8 +28,10 @@ and installs new versions in place.
 ## Linux — sdgo
 
 Download the latest `sdgo_<version>_<arch>.deb` from [Releases](../../releases)
-and install with `sudo dpkg -i`. A signed apt repository (automatic updates via
-`apt upgrade`) is coming next.
+and install with `sudo dpkg -i`. Builds are published for **amd64** and
+**arm64** (the latter covers Raspberry Pi); Debian 13+ or Ubuntu 24.04+ is
+required, since the packages need glibc 2.38 or newer. A signed apt repository
+(automatic updates via `apt upgrade`) is set up below.
 
 Every build bundles its own LGPL FFmpeg and MPL libsrt — license texts ship
 inside the artifacts. Update checks (when enabled) contact github.com only.
