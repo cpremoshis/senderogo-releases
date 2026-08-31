@@ -3,6 +3,15 @@
     <channel>
         <title>SenderoGo Receiver</title>
         <item>
+            <title>0.9.4</title>
+            <pubDate>Mon, 31 Aug 2026 11:26:51 -0600</pubDate>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/cpremoshis/senderogo-releases/releases/download/v0.9.4/SenderoGo-Receiver-0.9.4.dmg" length="9373485" type="application/octet-stream" sparkle:edSignature="ssul//P+9ADsFd9eJ0aRANens+HuCErUy6u1zlacxkemtMeq3GESzms8DcLZhQp3/geoftdPtaGhrA94CcQDAg=="/>
+        </item>
+        <item>
             <title>0.9.3</title>
             <pubDate>Thu, 27 Aug 2026 21:00:35 -0600</pubDate>
             <sparkle:version>113</sparkle:version>
