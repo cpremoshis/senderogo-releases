@@ -3,12 +3,12 @@
     <channel>
         <title>SenderoGo Receiver</title>
         <item>
-            <title>0.9.3</title>
-            <pubDate>Fri, 28 Aug 2026 02:34:55 +0000</pubDate>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+            <title>0.9.4</title>
+            <pubDate>Tue, 01 Sep 2026 23:21:01 +0000</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/cpremoshis/senderogo-releases/releases/download/v0.9.3/SenderoGo-Receiver-0.9.3-Setup.exe" length="49751011" type="application/octet-stream" sparkle:os="windows-x64" sparkle:installerArguments="/SILENT /SP- /SUPPRESSMSGBOXES /NORESTART" sparkle:edSignature="OLb8J+x2qJiPUluR4n9X7HlFKvzQHy5M/dEW6aNvqemEuXtd8D273Ld8vYtPp8lQIReMoAVsc2VbPhemd2KmCg=="/>
+            <enclosure url="https://github.com/cpremoshis/senderogo-releases/releases/download/v0.9.4/SenderoGo-Receiver-0.9.4-Setup.exe" length="49734936" type="application/octet-stream" sparkle:os="windows-x64" sparkle:installerArguments="/SILENT /SP- /SUPPRESSMSGBOXES /NORESTART" sparkle:edSignature="Y07KjsCVawumpAXEZrA9zXLPIzJ9z4FnR/Uuxfea2yb+8D50efUHbek1Mi+33ltWqWGwS56IgXMh1B+C8Z/rBw=="/>
         </item>
     </channel>
 </rss>
